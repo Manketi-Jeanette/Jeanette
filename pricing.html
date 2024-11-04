@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife - Pricing</title>
+    <style>
+        /* Basic Reset and Body Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header Styling */
+        header {
+            background: #2c3e50;
+            color: #f9f9f9;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2em;
+            letter-spacing: 2px;
+            text-decoration: none;
+        }
+        nav a {
+            color: #f9f9f9;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff6f61;
+        }
+
+        /* Section and Heading Styling */
+        section {
+            width: 80%;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        h2 {
+            color: #ff6f61;
+            font-family: 'Georgia', serif;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid #ddd;
+            text-align: left;
+            font-size: 1em;
+        }
+        th {
+            background-color: #2c3e50;
+            color: #f9f9f9;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #ffebd7;
+            transition: background-color 0.2s;
+        }
+
+        /* FAQ Styling */
+        .faq-section {
+            margin-top: 40px;
+            text-align: left;
+        }
+        .faq {
+            margin-bottom: 20px;
+        }
+        .faq h3 {
+            font-size: 1.3em;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        .faq p {
+            font-size: 1em;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        /* Equipment Rental Section Styling */
+        .equipment-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+            padding: 10px 0;
+        }
+        .equipment-item {
+            text-align: center;
+            padding: 15px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .equipment-item img {
+            width: 100%;
+            height: auto;
+            max-height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .equipment-item h3 {
+            margin-top: 15px;
+            font-size: 1.2em;
+            color: #333;
+        }
+        .equipment-item p {
+            font-size: 1.1em;
+            color: #ff6f61;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Button Styling */
+        .btn {
+            display: inline-block;
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 25px;
+            margin-top: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #ff6f61;
+            color: #fff;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            background: #2c3e50;
+            color: #f9f9f9;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>FitLife</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Pricing Section -->
+    <section>
+        <h2>Pricing</h2>
+        <p>Our affordable plans are designed to meet your fitness goals.</p>
+        <table>
+            <tr>
+                <th>Plan</th>
+                <th>Features</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Basic</td>
+                <td>Access to all equipment and group classes</td>
+                <td>R512/month</td>
+            </tr>
+            <tr>
+                <td>Standard</td>
+                <td>Personal trainer sessions + all equipment access</td>
+                <td>R864/month</td>
+            </tr>
+            <tr>
+                <td>Premium</td>
+                <td>Unlimited personal training + custom meal plans</td>
+                <td>R1,398/month</td>
+            </tr>
+        </table>
+
+        <!-- FAQ Section -->
+        <div class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq">
+                <h3>What are the membership cancellation policies?</h3>
+                <p>You can cancel your membership anytime with a 30-day notice. No cancellation fees apply, and you can rejoin later without penalties.</p>
+            </div>
+
+            <div class="faq">
+                <h3>Do I need to book classes in advance?</h3>
+                <p>Yes, we recommend booking classes online at least 24 hours in advance to ensure a spot, especially for popular group classes.</p>
+            </div>
+
+            <div class="faq">
+                <h3>Are there discounts for long-term memberships?</h3>
+                <p>Yes, we offer discounts on annual memberships. Contact our support team for more details on long-term plan benefits.</p>
+            </div>
+        </div>
+
+        <!-- Equipment Rental Section -->
+        <section>
+            <h2>Equipment Rental</h2>
+            <p>Need equipment for home workouts? Check out our rental options below.</p>
+            
+            <div class="equipment-grid">
+                <!-- Equipment Item 1 -->
+                <div class="equipment-item">
+                    <img src="treadmill.jpg" alt="Treadmill">
+                    <h3>Treadmill</h3>
+                    <p>R150 per day</p>
+                </div>
+
+                <!-- Equipment Item 2 -->
+                <div class="equipment-item">
+                    <img src="dumb.jpg" alt="Dumbbells">
+                    <h3>Dumbbells (Set)</h3>
+                    <p>R50 per day</p>
+                </div>
+
+                <!-- Equipment Item 3 -->
+                <div class="equipment-item">
+                    <img src="bike.jpg" alt="Exercise Bike">
+                    <h3>Exercise Bike</h3>
+                    <p>R120 per day</p>
+                </div>
+
+                <!-- Equipment Item 4 -->
+                <div class="equipment-item">
+                    <img src="yoga.jpg" alt="Yoga Mat">
+                    <h3>Yoga Mat</h3>
+                    <p>R20 per day</p>
+                </div>
+                <!-- Equipment Item 4 -->
+                <div class="equipment-item">
+                    <img src="leg.jpg" alt="Leg Press">
+                    <h3>Leg Press Machine</h3>
+                    <p>R20 per day</p>
+                </div>
+                <!-- Equipment Item 4 -->
+                <div class="equipment-item">
+                    <img src="rowing.jpg" alt="Rowing">
+                    <h3>Rowing Machine</h3>
+                    <p>R20 per day</p>
+                </div>
+            </div>
+        </section>
+
+        <a href="contact.html" class="btn">Sign Up Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 FitLife. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife - Our Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Arial&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            z-index: 1000;
+    
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+            
+        }
+        nav a:hover {
+            color: #ff6F61
+        }
+        /* Hero Section */
+.hero {
+    background: linear-gradient(to bottom right, #ff6f61, #f8c291); /* Add a gradient or solid color */
+    padding: 80px 20px;
+    color: white; /* Adjust text color */
+    text-align: center;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); /* Darken or remove overlay if needed */
+    z-index: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: auto;
+    color: #fF6F61; /* Adjust text color if needed */
+}
+
+.hero-content h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #fff; /* Customize heading color */
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    color: #FFFFFF; /* Customize paragraph color */
+}
+
+
+        /* Services Section */
+        .services-section {
+            background: linear-gradient(to bottom right, #f8f9fa, #e8eff2);
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .services-section h2 {
+            font-family: 'Playfair Display', serif;
+            color: #ff6f61;
+            font-size: 3em;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+        .service {
+            max-width: 800px;
+            margin: 30px auto;
+            text-align: left;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background: white;
+            /* Removed initial opacity and transform for visibility */
+        }
+        .service h3 {
+            font-size: 1.8em;
+            color: #ff6f61;
+            font-family: 'Playfair Display', serif;
+        }
+        .service p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+            margin-bottom: 15px;
+            color: #555;
+        }
+        .divider {
+            width: 60px;
+            height: 4px;
+            background: #ff6f61;
+            margin: 0 auto 20px;
+        }
+        .service-icon img {
+            width: 40px;
+            margin-bottom: 15px;
+        }
+
+        /* Video Embeds */
+        .service video {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Button Styles */
+        .cta-button {
+            display: inline-block;
+            background-color: #ff6f61;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 20px;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #e85c4a;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 2px solid #333;
+            text-align: center;
+            background: #2c3e50;
+            color: white;
+            padding: 10px 0;
+        }
+        .social-icons a {
+            margin: 0 10px;
+        }
+        .social-icons img {
+            width: 24px;
+            transition: filter 0.3s;
+        }
+        .social-icons img:hover {
+            color: ff6f61;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FitLife</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Discover Our Exclusive Fitness Services</h2>
+            <p>Achieve your best self with personalized training, group classes, and expert guidance.</p>
+        </div>
+    </section>
+
+    <section class="services-section">
+        <h2>Our Services</h2>
+
+        <!-- Personal Training -->
+        <div class="service">
+            <div class="divider"></div>
+            <div class="service-icon"><img src="aa.jpeg" alt="Icon for Personal Training"></div>
+            <h3>Personal Training</h3>
+            <p>Work one-on-one with a certified personal trainer to achieve your fitness goals. Our trainers create personalized plans tailored to your unique needs and keep you motivated every step of the way.</p>
+            <video controls>
+                <source src="personal.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+           
+        </div>
+
+        <!-- Group Classes -->
+        <div class="service">
+            <div class="divider"></div>
+            <div class="service-icon"><img src="dd.jpg" alt="Icon for Group Classes"></div>
+            <h3>Group Classes</h3>
+            <p>Join our exciting group classes to work out with others and push yourself further! We offer a variety of classes, including HIIT, yoga, pilates, and Zumba, led by experienced instructors who make fitness fun and energizing.</p>
+            <video controls>
+                <source src="class.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+        </div>
+
+        <!-- Fitness Equioment Rental-->
+        <div class="service">
+            <div class="divider"></div>
+            <div class="service-icon"><img src="bb.png" alt="Icon for Nutritional Coaching"></div>
+            <h3>Fitness Equipment Rental</h3>
+            <p>We offer fitness equipment for rental to clients looking to work out at home .</p>
+            <video controls>
+                <source src="kk.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <a href="pricing.html" class="cta-button">Learn More</a>
+        </div>
+
+        <!-- Online Training -->
+        <div class="service">
+            <div class="divider"></div>
+            <div class="service-icon"><img src="cc.webp" alt="Icon for Online Training"></div>
+            <h3>Online Training Programs</h3>
+            <p>Train from anywhere with our online programs. Get access to custom workouts, video instructions, and progress tracking, all designed to help you reach your goals on your schedule.</p>
+            <video controls>
+                <source src="life.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+           
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FitLife. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+           

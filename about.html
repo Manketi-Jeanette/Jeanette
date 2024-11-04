@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - FitLife</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 15px 20px;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+             
+        }
+        nav a:hover{
+            color: #ff6f61;
+        }
+        .about-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+        .about-header {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+        .mission {
+            max-width: 800px;
+            text-align: center;
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 40px;
+        }
+        .team-section {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1200px;
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .team-member {
+            width: 280px;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .team-member:hover {
+            transform: scale(1.05);
+        }
+        .team-photo {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .member-info {
+            padding: 20px;
+        }
+        .member-info h3 {
+            font-size: 1.5em;
+            color: #ff6f61;
+            margin: 10px 0;
+        }
+        .member-info p {
+            font-size: 1em;
+            color: #666;
+        }
+        mark{
+            background-color:#ff6f61;
+        }
+        footer {
+            text-align: center;
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FitLife</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="about-container">
+        <h2 class="about-header">About Us</h2>
+        <p class="mission">At FitLife, our mission is to empower people to achieve their health and fitness goals. We offer tailored fitness programs, expert nutritional guidance, and a supportive community to ensure your success in every step of your journey.</p>
+
+        <div class="team-section">
+            <div class="team-member">
+                <img src="Mokebe.jpg" alt="Trainer 1" class="team-photo">
+                <div class="member-info">
+                    <h3>Mokebe Mapatsi</h3>
+                    <p>Mokebe has been working in the fitness industry since 2010, as a personal trainer and later on as a small studio owner. Mokebe's education in physiotherapy and the additional courses he has taken have helped her couch her numerous clients towards improving their health and fitness.</p>
+                    <p><mark>Area of Experience:</mark> </p>
+                    <p>Weight Loss | Post Natal Training</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="Manketi.avif" alt="Trainer 2" class="team-photo">
+                <div class="member-info">
+                    <h3>Manketi Litali</h3>
+                    <p>Manketi brings a strong sense of confidence and dedication to her training style. From her time in competitive gymnastics and track and field, Manketi grew an appreciation for coaching, helping people take control of their health, and instilling a lifelong love for staying active.</p>
+                    <p><mark>Area of Experience:</mark></p>
+                    <p>Strengh and Conditioning | Rehabilitation | Corrective Exercise</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="Karabo.jpg" alt="Trainer 3" class="team-photo">
+                <div class="member-info">
+                    <h3>Karabo Tlali</h3>
+                    <p>Using the abundance of knowledge she gained in his bachelors of kinesiology, Karabo is committed to bulding customized programs to fit the needs of his clients.</p>
+                    <p><mark>Area of Experience:</mark></p>
+                    <p>Hybrid Trainin | Running</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="Tsheliso.avif" alt="Trainer 4" class="team-photo">
+                <div class="member-info">
+                    <h3>Ts'eliso </h3>
+                    <p>If you are looking for a trainer that blends education,passion and holism - Ts'eliso is your guy. He will help you realize that you can achieve beyond what you think is possible.</p>
+                    <p><mark>Area of Experience:</mark></p>
+                    <p>Weight Loss | Strengh + Hypertrophy</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="Tshepang.avif" alt="Trainer 5" class="team-photo">
+                <div class="member-info">
+                    <h3>Ts'epang</h3>
+                    <p>Ts'epang has been working over a decade with clients from different backgrounds: general fitness enthusiasts, chronic rehabilitation patients, and professional athletes.</p>
+                    <p><mark>Area of Experience:</mark></p>
+                    <p>Rehabilitation | Sports Performance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FitLife. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

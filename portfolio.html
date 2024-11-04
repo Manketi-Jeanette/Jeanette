@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife - Portfolio</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            
+        }
+        nav a:hover{
+            color: #ff6f61;
+        }
+
+        /* Section Styling */
+        .portfolio-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .portfolio-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #ff6f61;
+        }
+        h2{
+            color: #ff6f61;
+        }
+
+        .portfolio-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .portfolio-item {
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            width: 300px;
+            text-align: left;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .portfolio-item .item-content {
+            padding: 15px;
+        }
+
+        .portfolio-item h3 {
+            margin-top: 0;
+            color: #ff6f61;
+        }
+
+        .portfolio-item p {
+            color: #666;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+
+        /* Audio Styling */
+        .audio-section {
+            margin: 30px 0;
+        }
+
+        audio {
+            width: 100%;
+            margin: 20px 0;
+            border-radius: 5px;
+
+        }
+
+        /* Footer */
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>FitLife</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section">
+        <h2>Our Transformations</h2>
+        <p>See the inspiring transformations of our clients as they reached their fitness goals with FitLife!</p>
+
+        <div class="portfolio-gallery">
+            <!-- Portfolio Item 1 -->
+            <div class="portfolio-item">
+                <img src="khotso.jpg" alt="Client Transformation 1">
+                <div class="item-content">
+                    <h3>John's Journey</h3>
+                    <p>John joined FitLife to get in shape for his wedding. With a dedicated fitness and diet plan, he achieved his dream physique within six months.</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 2 -->
+            <div class="portfolio-item">
+                <img src="mp.jpg" alt="Client Transformation 2">
+                <div class="item-content">
+                    <h3>Sarah's Success</h3>
+                    <p>Sarah has faced challenges head-on, turning obstacles into opportunities for growth. Her journey serves as an inspiring reminder that perseverance and determination can lead to incredible results.</p>
+                </div>
+            </div>
+
+              <!-- Portfolio Item 3 -->
+            <div class="portfolio-item">
+                <img src="hh.jpg" alt="Client Transformation 2">
+                <div class="item-content">
+                    <h3>Mike's Achievement</h3>
+                    <p>Mike exemplifies the idea that commitment is key to success. His story encourages others to believe in themselves and take the necessary steps towards achieving their fitness aspirations, no matter how daunting they seem .</p>
+                </div>
+            </div>
+            <!-- Portfolio Item 4 -->
+            <div class="portfolio-item">
+                <img src="mm.jpg" alt="Client Transformation 2">
+                <div class="item-content">
+                    <h3>Bethany's Success</h3>
+                    <p>Bethany lost over 20 pounds and gained muscle definition with the FitLife program. She now feels more confident and energetic.</p>
+                </div>
+            </div>
+            <!-- Portfolio Item 5-->
+            <div class="portfolio-item">
+                <img src="neo.jpg" alt="Client Transformation 2">
+                <div class="item-content">
+                    <h3>Paul's Achievement</h3>
+                    <p>With unwavering dedication, Paul showcases what it means to put in the effort day in day out. His journey highlights the importance of hard work in achieving fitness goals and inspires others to push beyond their limits.</p>
+                </div>
+            </div>
+
+
+
+               <!-- Portfolio Item 6 -->
+            <div class="portfolio-item">
+              
+              <img src="nn.jpg" alt="Client Transformation 3">
+                <div class="item-content">
+                    <h3>Faith's Achievement</h3>
+                    <p>Faith used our weightlifting program to build strength and endurance. Today, she’s training for her first marathon.</p>
+                </div>
+            </div>
+              
+    </section>
+
+    <!-- Audio Section -->
+    <section class="audio-section">
+        <h2>Listen to Our Story</h2>
+        <p>Hear directly from our trainers and clients on their experiences with FitLife!</p>
+        <audio controls>
+            <source src="gbb.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 FitLife. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
